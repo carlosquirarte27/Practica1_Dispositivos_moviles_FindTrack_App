@@ -11,27 +11,13 @@ class ShazamApiInitialState extends ShazamApiState {}
 
 class ShazamListeningState extends ShazamApiState {}
 
-class ShazamFindedState extends ShazamApiState {
-  final title;
-  final album;
-  final artist;
-  final image;
-  final apple;
-  final spotify;
-  final g_link;
+class ShazamFoundState extends ShazamApiState {
+  final Song song;
 
-  ShazamFindedState(
-      {required this.title,
-      required this.album,
-      required this.artist,
-      required this.image,
-      required this.apple,
-      required this.spotify,
-      required this.g_link
-      });
+  ShazamFoundState({required this.song});
 
   @override
-  List<Object?> get props => [title, album, artist, image,apple,spotify,g_link];
+  List<Object?> get props => [song];
 }
 
-class ShazamFailedListening extends ShazamApiState {}
+class ShazamNotFoundState extends ShazamApiState {}

@@ -46,8 +46,14 @@ dependencies:
   equatable:
   path_provider:
   flutter_bloc: ^8.1.1
+  firebase:
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
   http:
   url_launcher:
+  google_sign_in: ^5.4.2
+  flutter_signin_button: ^2.0.0
 
 dev_dependencies:
   flutter_test:

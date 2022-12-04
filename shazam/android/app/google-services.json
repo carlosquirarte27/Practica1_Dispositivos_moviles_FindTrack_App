@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "268574938013",
+    "project_id": "findtrackapp-d66e1",
+    "storage_bucket": "findtrackapp-d66e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268574938013:android:4cb216a7b9000705139574",
+        "android_client_info": {
+          "package_name": "com.example.shazam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268574938013-ndnendcjn7hu4av6388pulep5r6dbohd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX1KnvhU2TmDKfoeXTpBax2SrVZXFTZGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268574938013-ndnendcjn7hu4av6388pulep5r6dbohd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

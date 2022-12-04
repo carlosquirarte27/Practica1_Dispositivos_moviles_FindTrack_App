@@ -9,3 +9,4 @@ abstract class ShazamApiEvent extends Equatable {
 
 class ListeningEvent extends ShazamApiEvent {}
 
+class FoundSongEvent extends ShazamApiEvent {}
